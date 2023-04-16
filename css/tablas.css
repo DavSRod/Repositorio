@@ -1,5 +1,9 @@
+body {
+    background-color: rgb(80, 80, 226);
+}
 h1 {
     text-align: center;
+    color: white;
 }
 .table-box {
     display: flex;
@@ -14,15 +18,30 @@ th, td {
     /* border: 1px solid rgb(24, 24, 24); */
     padding: 10px 15px;
 }
+.plan {
+    background-color: rgb(241, 161, 95);
+    color: white;  
+}
 .col-style {
     width: 150px;
 }
-.col-fam {
+.col-pln {
+    background-color: rgb(255, 120, 13);
+    color: white;
+}
+.col-prize {
+    background-color: rgb(241, 161, 95);
+    color: white;
+}
+.col-mes {
     background-color: rgb(255, 120, 13);
     color: white;
 }
 .color-row {
-    background-color: rgb(241, 241, 243);
+    background-color: rgb(194, 194, 199);
+}
+.color-white {
+    background-color: rgb(255, 255, 255);
 }
 .img-check {
     display: block;
